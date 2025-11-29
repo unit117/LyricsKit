@@ -9,7 +9,7 @@
 
 import Foundation
 
-final public class Lyrics {
+final public class Lyrics: @unchecked Sendable {
     
     private var lines: [LyricsLine] = []
     public var idTags: [IDTagKey: String] = [:]

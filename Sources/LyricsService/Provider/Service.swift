@@ -20,6 +20,8 @@ extension LyricsProviders {
     }
 }
 
+#if canImport(Combine)
+
 extension LyricsProviders.Service {
     
     func create() -> LyricsProvider {
@@ -35,3 +37,5 @@ extension LyricsProviders.Service {
         }
     }
 }
+
+#endif

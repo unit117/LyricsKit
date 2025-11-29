@@ -2,6 +2,14 @@
 
 Lyrics submodule for [LyricsX](https://github.com/ddddxxx/LyricsX).
 
+## Requirements
+
+- Swift 5.9+
+- macOS 12.0+
+- iOS 15.0+
+- tvOS 15.0+
+- watchOS 8.0+
+
 ## Supported Sources
 
 - NetEase Music
@@ -15,7 +23,7 @@ Lyrics submodule for [LyricsX](https://github.com/ddddxxx/LyricsX).
 
 ## Usage
 
-#### Search lyrics from the internet
+#### Search lyrics from the internet (Combine)
 
 ```swift
 import LyricsService
@@ -34,8 +42,37 @@ let provider = LyricsProviders.Kugou()
 // or search from multiple sources
 let provider = LyricsProviders.Group(service: [.kugou, .netease, .qq])
 
-// search
+// search using Combine
 provider.lyricsPublisher(request: searchReq).sink { lyrics in
+    print(lyrics)
+}
+```
+
+#### Search lyrics using async/await
+
+```swift
+import LyricsService
+
+let searchReq = LyricsSearchRequest(
+    searchTerm: .info(title: "Tranquilize", artist: "The Killers"),
+    duration: 225.2
+)
+
+// Search from multiple sources using async/await
+let provider = LyricsProviders.Group()
+
+// Get all results at once
+do {
+    let lyrics = try await provider.searchLyrics(request: searchReq)
+    for lyric in lyrics {
+        print(lyric)
+    }
+} catch {
+    print("Error: \(error)")
+}
+
+// Or stream results as they arrive
+for try await lyrics in provider.lyricsStream(request: searchReq) {
     print(lyrics)
 }
 ```

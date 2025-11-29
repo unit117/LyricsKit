@@ -9,7 +9,9 @@
 
 import Foundation
 import LyricsCore
-import CXShim
+
+#if canImport(Combine)
+import Combine
 
 extension LyricsProviders {
     
@@ -22,9 +24,11 @@ extension LyricsProviders {
         }
         
         public func lyricsPublisher(request: LyricsSearchRequest) -> AnyPublisher<Lyrics, Never> {
-            return providers.cx.publisher
+            return Publishers.Sequence(sequence: providers)
                 .flatMap { $0.lyricsPublisher(request: request) }
                 .eraseToAnyPublisher()
         }
     }
 }
+
+#endif

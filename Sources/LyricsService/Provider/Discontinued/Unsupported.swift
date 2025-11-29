@@ -9,7 +9,9 @@
 
 import Foundation
 import LyricsCore
-import CXShim
+
+#if canImport(Combine)
+import Combine
 
 extension LyricsProviders {
     public final class Unsupported {
@@ -23,3 +25,5 @@ extension LyricsProviders.Unsupported: LyricsProvider {
         return Empty<Lyrics, Never>().eraseToAnyPublisher()
     }
 }
+
+#endif
