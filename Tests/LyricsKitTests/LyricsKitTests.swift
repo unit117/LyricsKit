@@ -18,6 +18,7 @@ final class LyricsKitTests: XCTestCase {
         XCTAssertEqual(lrc.lineIndex(at: 0), 8)
     }
     
+    #if canImport(Combine)
     func testSearching() {
         let source = LyricsProviders.Group()
         var searchResultEx: XCTestExpectation? = expectation(description: "search succeed")
@@ -40,4 +41,5 @@ final class LyricsKitTests: XCTestCase {
         waitForExpectations(timeout: 10)
         cancelable.cancel()
     }
+    #endif
 }

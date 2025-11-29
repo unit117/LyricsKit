@@ -9,8 +9,9 @@
 
 import Foundation
 import LyricsCore
-import CXShim
-import CXExtensions
+
+#if canImport(Combine)
+import Combine
 
 #if canImport(FoundationNetworking)
 import FoundationNetworking
@@ -54,7 +55,7 @@ extension LyricsProviders.ViewLyrics: _LyricsProvider {
         req.httpMethod = "POST"
         req.addValue("MiniLyrics", forHTTPHeaderField: "User-Agent")
         req.httpBody = assembleQuery(artist: artist, title: title)
-        return sharedURLSession.cx.dataTaskPublisher(for: req)
+        return sharedURLSession.dataTaskPublisher(for: req)
             .tryMap {
                 guard $0.data.count > 22 else { throw NilError.error }
                 let magic = $0.data[1]
@@ -74,7 +75,7 @@ extension LyricsProviders.ViewLyrics: _LyricsProvider {
         guard let url = URL(string: token.link, relativeTo: viewLyricsItemBaseURL) else {
             return Empty().eraseToAnyPublisher()
         }
-        return sharedURLSession.cx.dataTaskPublisher(for: url)
+        return sharedURLSession.dataTaskPublisher(for: url)
             .compactMap {
                 guard let lrcContent = String(data: $0.data, encoding: .utf8),
                     let lrc = Lyrics(lrcContent) else {
@@ -86,7 +87,9 @@ extension LyricsProviders.ViewLyrics: _LyricsProvider {
                     lrc.length = TimeInterval(length)
                 }
                 return lrc
-            }.ignoreError()
+            }
+            .replaceError(with: nil)
+            .compactMap { $0 }
             .eraseToAnyPublisher()
     }
 }
@@ -129,3 +132,5 @@ private class ViewLyricsResponseXMLParser: NSObject, XMLParserDelegate {
         result.append(item)
     }
 }
+
+#endif

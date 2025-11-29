@@ -9,8 +9,9 @@
 
 import Foundation
 import LyricsCore
-import CXShim
-import CXExtensions
+
+#if canImport(Combine)
+import Combine
 
 #if canImport(FoundationNetworking)
 import FoundationNetworking
@@ -44,9 +45,9 @@ extension LyricsProviders.Gecimi: _LyricsProvider {
         let url = gecimiLyricsBaseURL.appendingPathComponent("\(encodedTitle)/\(encodedArtist)")
         let req = URLRequest(url: url)
         
-        return sharedURLSession.cx.dataTaskPublisher(for: req)
+        return sharedURLSession.dataTaskPublisher(for: req)
             .map(\.data)
-            .decode(type: GecimiResponseSearchResult.self, decoder: JSONDecoder().cx)
+            .decode(type: GecimiResponseSearchResult.self, decoder: JSONDecoder())
             .map(\.result)
             .replaceError(with: [])
             .flatMap(Publishers.Sequence.init)
@@ -56,7 +57,7 @@ extension LyricsProviders.Gecimi: _LyricsProvider {
     
     public func lyricsFetchPublisher(token: LyricsToken) -> AnyPublisher<Lyrics, Never> {
         let token = token.value
-        return sharedURLSession.cx.dataTaskPublisher(for: token.lrc)
+        return sharedURLSession.dataTaskPublisher(for: token.lrc)
             .compactMap {
                 guard let lrcContent = String(data: $0.data, encoding: .utf8),
                     let lrc = Lyrics(lrcContent) else {
@@ -65,7 +66,11 @@ extension LyricsProviders.Gecimi: _LyricsProvider {
                 lrc.metadata.remoteURL = token.lrc
                 lrc.metadata.serviceToken = "\(token.aid),\(token.lrc)"
                 return lrc
-            }.ignoreError()
+            }
+            .replaceError(with: nil)
+            .compactMap { $0 }
             .eraseToAnyPublisher()
     }
 }
+
+#endif

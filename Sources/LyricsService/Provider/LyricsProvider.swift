@@ -9,7 +9,9 @@
 
 import Foundation
 import LyricsCore
-import CXShim
+
+#if canImport(Combine)
+import Combine
 
 public enum LyricsProviders {}
 
@@ -43,3 +45,11 @@ extension _LyricsProvider {
             }.eraseToAnyPublisher()
     }
 }
+
+#else
+
+public enum LyricsProviders {}
+
+public protocol LyricsProvider {}
+
+#endif
