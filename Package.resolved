@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "gzipswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/1024jp/GzipSwift",
+      "state" : {
+        "revision" : "56bf51fdd2fe4b2cf254b2cf34aede3d7caccc6c",
+        "version" : "6.1.0"
+      }
+    },
+    {
+      "identity" : "regex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ddddxxx/Regex",
+      "state" : {
+        "revision" : "c0ad0a7e9a48989d9688c2b524a1e69b6293b733",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swiftcf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ddddxxx/SwiftCF",
+      "state" : {
+        "revision" : "72775c4b4dfceba8f6f43820d50f9286dc97160d",
+        "version" : "0.2.1"
+      }
+    }
+  ],
+  "version" : 2
+}

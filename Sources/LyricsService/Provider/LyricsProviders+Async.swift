@@ -20,30 +20,33 @@ extension LyricsProviders.Group {
     /// - Parameter request: The lyrics search request
     /// - Returns: Array of found lyrics, sorted by quality
     public func searchLyrics(request: LyricsSearchRequest) async throws -> [Lyrics] {
-        try await withCheckedThrowingContinuation { continuation in
-            var results: [Lyrics] = []
-            var hasCompleted = false
-            
-            let cancellable = lyricsPublisher(request: request)
-                .collect()
-                .sink(
-                    receiveCompletion: { completion in
-                        guard !hasCompleted else { return }
-                        hasCompleted = true
-                        switch completion {
-                        case .finished:
-                            continuation.resume(returning: results.sorted { $0.quality > $1.quality })
-                        case .failure(let error):
-                            continuation.resume(throwing: error)
+        var cancellable: AnyCancellable?
+        
+        return try await withTaskCancellationHandler {
+            try await withCheckedThrowingContinuation { continuation in
+                var results: [Lyrics] = []
+                var hasCompleted = false
+                
+                cancellable = lyricsPublisher(request: request)
+                    .collect()
+                    .sink(
+                        receiveCompletion: { completion in
+                            guard !hasCompleted else { return }
+                            hasCompleted = true
+                            switch completion {
+                            case .finished:
+                                continuation.resume(returning: results.sorted { $0.quality > $1.quality })
+                            case .failure(let error):
+                                continuation.resume(throwing: error)
+                            }
+                        },
+                        receiveValue: { lyrics in
+                            results = lyrics
                         }
-                    },
-                    receiveValue: { lyrics in
-                        results = lyrics
-                    }
-                )
-            
-            // Store cancellable to keep subscription alive
-            _ = cancellable
+                    )
+            }
+        } onCancel: {
+            cancellable?.cancel()
         }
     }
     
@@ -82,29 +85,33 @@ extension LyricsProvider {
     /// - Parameter request: The lyrics search request
     /// - Returns: Array of found lyrics
     public func searchLyrics(request: LyricsSearchRequest) async throws -> [Lyrics] {
-        try await withCheckedThrowingContinuation { continuation in
-            var results: [Lyrics] = []
-            var hasCompleted = false
-            
-            let cancellable = lyricsPublisher(request: request)
-                .collect()
-                .sink(
-                    receiveCompletion: { completion in
-                        guard !hasCompleted else { return }
-                        hasCompleted = true
-                        switch completion {
-                        case .finished:
-                            continuation.resume(returning: results)
-                        case .failure(let error):
-                            continuation.resume(throwing: error)
+        var cancellable: AnyCancellable?
+        
+        return try await withTaskCancellationHandler {
+            try await withCheckedThrowingContinuation { continuation in
+                var results: [Lyrics] = []
+                var hasCompleted = false
+                
+                cancellable = lyricsPublisher(request: request)
+                    .collect()
+                    .sink(
+                        receiveCompletion: { completion in
+                            guard !hasCompleted else { return }
+                            hasCompleted = true
+                            switch completion {
+                            case .finished:
+                                continuation.resume(returning: results)
+                            case .failure(let error):
+                                continuation.resume(throwing: error)
+                            }
+                        },
+                        receiveValue: { lyrics in
+                            results = lyrics
                         }
-                    },
-                    receiveValue: { lyrics in
-                        results = lyrics
-                    }
-                )
-            
-            _ = cancellable
+                    )
+            }
+        } onCancel: {
+            cancellable?.cancel()
         }
     }
     
