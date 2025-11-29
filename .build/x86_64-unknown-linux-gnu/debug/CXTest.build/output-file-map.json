@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/master.swiftdeps"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/Common/BinaryHeap.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/BinaryHeap.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/BinaryHeap.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/BinaryHeap~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/BinaryHeap.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/BinaryHeap.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/Common/Const.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Const.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Const.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Const~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Const.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Const.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/Common/GlobalCounter.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/GlobalCounter.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/GlobalCounter.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/GlobalCounter~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/GlobalCounter.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/GlobalCounter.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/Common/Locking.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Locking.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Locking.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Locking~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Locking.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Locking.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/Common/Math.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Math.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Math.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Math~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Math.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/Math.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/CompletionExtensions.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/CompletionExtensions.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/CompletionExtensions.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/CompletionExtensions~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/CompletionExtensions.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/CompletionExtensions.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/TracingSubscriber.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscriber.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscriber.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscriber~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscriber.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscriber.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/TracingSubscription.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscription.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscription.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscription~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscription.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TracingSubscription.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/TransparentPublisher.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TransparentPublisher.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TransparentPublisher.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TransparentPublisher~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TransparentPublisher.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/TransparentPublisher.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/VirtualTime.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTime.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTime.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTime~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTime.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTime.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXTest/Sources/CXTest/VirtualTimeScheduler.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTimeScheduler.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTimeScheduler.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTimeScheduler~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTimeScheduler.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXTest.build/VirtualTimeScheduler.dia"
+  }
+}

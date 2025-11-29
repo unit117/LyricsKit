@@ -1,0 +1,61 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/master.swiftdeps"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/AnyScheduler.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/AnyScheduler.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/AnyScheduler.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/AnyScheduler~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/AnyScheduler.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/AnyScheduler.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/Blocking.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Blocking.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Blocking.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Blocking~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Blocking.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Blocking.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/DelayedAutoCancellable.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/DelayedAutoCancellable.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/DelayedAutoCancellable.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/DelayedAutoCancellable~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/DelayedAutoCancellable.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/DelayedAutoCancellable.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/IgnoreError.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/IgnoreError.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/IgnoreError.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/IgnoreError~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/IgnoreError.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/IgnoreError.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/Invoke.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Invoke.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Invoke.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Invoke~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Invoke.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Invoke.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/SelfRetainedCancellable.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/SelfRetainedCancellable.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/SelfRetainedCancellable.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/SelfRetainedCancellable~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/SelfRetainedCancellable.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/SelfRetainedCancellable.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/Signal.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Signal.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Signal.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Signal~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Signal.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/Signal.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CXExtensions/Sources/CXExtensions/WeakAssign.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/WeakAssign.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/WeakAssign.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/WeakAssign~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/WeakAssign.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXExtensions.build/WeakAssign.dia"
+  }
+}

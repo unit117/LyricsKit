@@ -1,0 +1,4 @@
+module _AtomicsShims {
+    umbrella header "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/swift-atomics/Sources/_AtomicsShims/include/_AtomicsShims.h"
+    export *
+}

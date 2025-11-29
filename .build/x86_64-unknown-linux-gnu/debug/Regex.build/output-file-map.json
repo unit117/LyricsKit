@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/master.swiftdeps"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/Regex/Sources/Regex/Capture.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Capture.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Capture.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Capture~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Capture.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Capture.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/Regex/Sources/Regex/Match.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Match.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Match.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Match~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Match.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Match.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/Regex/Sources/Regex/Regex+Bridge.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex+Bridge.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex+Bridge.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex+Bridge~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex+Bridge.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex+Bridge.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/Regex/Sources/Regex/Regex.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Regex.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/Regex/Sources/Regex/String+Replace.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/String+Replace.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/String+Replace.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/String+Replace~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/String+Replace.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/String+Replace.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/Regex/Sources/Regex/Utilities.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Utilities.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Utilities.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Utilities.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/Regex.build/Utilities.dia"
+  }
+}

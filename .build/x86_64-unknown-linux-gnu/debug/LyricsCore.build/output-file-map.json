@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/master.swiftdeps"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/Lyrics+Furigana.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics+Furigana.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics+Furigana.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics+Furigana~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics+Furigana.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics+Furigana.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/Lyrics.IDTag.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.IDTag.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.IDTag.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.IDTag~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.IDTag.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.IDTag.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/Lyrics.Metadata.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.Metadata.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.Metadata.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.Metadata~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.Metadata.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.Metadata.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/Lyrics.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/Lyrics.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/LyricsLine.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLine.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLine.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLine~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLine.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLine.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/LyricsLineAttachment.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLineAttachment.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLineAttachment.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLineAttachment~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLineAttachment.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/LyricsLineAttachment.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/Sources/LyricsCore/RegexPattern.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/RegexPattern.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/RegexPattern.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/RegexPattern~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/RegexPattern.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/LyricsCore.build/RegexPattern.dia"
+  }
+}

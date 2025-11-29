@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/master.swiftdeps"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CombineX/Sources/CXUtility/Const.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Const.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Const.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Const~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Const.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Const.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CombineX/Sources/CXUtility/LockedAtomic.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/LockedAtomic.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/LockedAtomic.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/LockedAtomic~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/LockedAtomic.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/LockedAtomic.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CombineX/Sources/CXUtility/Locking.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Locking.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Locking.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Locking~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Locking.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Locking.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/CombineX/Sources/CXUtility/Math.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Math.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Math.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Math~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Math.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CXUtility.build/Math.dia"
+  }
+}

@@ -1,0 +1,3 @@
+module IOKitExt {
+    header "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/IOKitExt.build/include/IOKitExt-Swift.h"
+}

@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/master.swiftdeps"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/CGType.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGType.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGType.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGType~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGType.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGType.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CATransform3D.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CATransform3D.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CATransform3D.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CATransform3D~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CATransform3D.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CATransform3D.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CGAffineTransform.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGAffineTransform.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGAffineTransform.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGAffineTransform~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGAffineTransform.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGAffineTransform.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CGFloat.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGFloat.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGFloat.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGFloat~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGFloat.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGFloat.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CGPoint.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGPoint.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGPoint.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGPoint~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGPoint.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGPoint.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CGRect.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGRect.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGRect.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGRect~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGRect.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGRect.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CGSize.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGSize.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGSize.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGSize~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGSize.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGSize.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/Geometry/CGVector.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGVector.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGVector.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGVector~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGVector.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGVector.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/WindowServices/CGWindow.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindow.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindow.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindow~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindow.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindow.dia"
+  },
+  "/home/runner/work/LyricsKit/LyricsKit/.build/checkouts/SwiftCF/Sources/CoreGraphicsExt/WindowServices/CGWindowInfoKeys.swift": {
+    "dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindowInfoKeys.d",
+    "object": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindowInfoKeys.swift.o",
+    "swiftmodule": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindowInfoKeys~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindowInfoKeys.swiftdeps",
+    "diagnostics": "/home/runner/work/LyricsKit/LyricsKit/.build/x86_64-unknown-linux-gnu/debug/CoreGraphicsExt.build/CGWindowInfoKeys.dia"
+  }
+}
